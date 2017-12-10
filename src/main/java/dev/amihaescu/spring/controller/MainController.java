@@ -16,7 +16,7 @@ public class MainController {
     @RequestMapping(path = "/{name}")
     public Message getMessage(@PathVariable("name") String name){
         Message message = new Message();
-        message.setId(2L);
+        message.setId(3L);
         message.setText(name);
         return message;
     }
