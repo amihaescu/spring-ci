@@ -14,7 +14,7 @@ apply plugin: 'org.springframework.boot'
 
 jar {
     baseName = 'back-end'
-    version =  '$System.env.BUILD_NUMBER'
+    version =  "$System.env.BUILD_NUMBER"
 }
 
 repositories {
